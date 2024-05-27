@@ -1,0 +1,10 @@
+.navbar{
+	
+	top:68px;
+}
+
+@media (min-width: 640px){
+	.navbar{
+		top:0;
+	}
+}
