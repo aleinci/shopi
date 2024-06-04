@@ -17,7 +17,7 @@ function MyOrder() {
   return (
     <Layout>
 	  <div className='flex justify-center items-center relative w-80 mb-6'>
-        <Link to='/my-orders' className='absolute left-0'>
+        <Link to='/shopi/my-orders' className='absolute left-0'>
           <ChevronLeftIcon className='h-6 w-6 text-black cursor-pointer' />
         </Link>
         <h1 className='font-medium text-xl mb-4 mt-4'>My Order</h1>

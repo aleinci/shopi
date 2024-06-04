@@ -13,20 +13,20 @@ import { CheckoutSideMenu } from '../../Components/CheckoutSideMenu';
 
 const AppRoutes = () =>{
   let routes = useRoutes([
-    {path: '/', element: <Home />},
-    {path: '/clothes', element: <Home />},
-    {path: '/electronics', element: <Home />},
-    {path: '/furniture', element: <Home />},
-    {path: '/toys', element: <Home />},
-    {path: '/others', element: <Home />},
-    {path: '/my-account', element: <MyAccount />},
-    {path: '/my-order', element: <MyOrder />},
-    {path: '/my-orders', element: <MyOrders />},
-    {path: '/my-orders/last', element: <MyOrder />},
-    {path: '/my-orders/:id', element: <MyOrder />},
-    {path: '/*', element: <NotFound />},
-    {path: '/sign-in', element: <SignIn />},
-    {path: '/register', element: <Register />},
+    {path: '/shopi', element: <Home />},
+    {path: '/shopi/clothes', element: <Home />},
+    {path: '/shopi/electronics', element: <Home />},
+    {path: '/shopi/furniture', element: <Home />},
+    {path: '/shopi/toys', element: <Home />},
+    {path: '/shopi/others', element: <Home />},
+    {path: '/shopi/my-account', element: <MyAccount />},
+    {path: '/shopi/my-order', element: <MyOrder />},
+    {path: '/shopi/my-orders', element: <MyOrders />},
+    {path: '/shopi/my-orders/last', element: <MyOrder />},
+    {path: '/shopi/my-orders/:id', element: <MyOrder />},
+    {path: '/shopi/*', element: <NotFound />},
+    {path: '/shopi/sign-in', element: <SignIn />},
+    {path: '/shopi/register', element: <Register />},
 
   ]);
 

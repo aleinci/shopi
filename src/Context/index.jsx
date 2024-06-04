@@ -1,5 +1,4 @@
 import {createContext, useState, useEffect} from 'react'
-import {api} from '../pages/Home/api.jsx';
 const ShoppingCartContext = createContext();
 
 const ShoppingCartProvider = ({children}) =>{
